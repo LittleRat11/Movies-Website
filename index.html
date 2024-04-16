@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- *Boxicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!-- *Header Start -->
+    <header>
+        <a href="#">
+            <h2>Movie <span>Collection</span></h2>
+        </a>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">Popular</a></li>
+            </ul>
+        </nav>
+
+        <ul>
+            <li>
+                <i class='bx bx-cog' id="setting-toggle"></i>
+            </li>
+            <li>
+                <a href="#" id="toggle-btn">
+                    <i class='bx bx-sun' id="toggle-icon"></i>
+                </a>
+
+            </li>
+            <li>
+                <i class='bx bx-menu' id="menu-toggle"></i>
+            </li>
+        </ul>
+    </header>
+    <div class="setting-box">
+        <img src="image/img1.jpeg" alt="">
+        <img src="image/img2.jpeg" alt="">
+        <img src="image/img3.jpeg" alt="">
+        <img src="image/img4.jpeg" alt="">
+        <img src="image/img5.jpeg" alt="">
+        <img src="image/img6.jpeg" alt="">
+        <img src="image/img7.jpeg" alt="">
+        <img src="image/img8.jpeg" alt="">
+    </div>
+    <!-- *Header End -->
+    <!-- * Image Landing Start-->
+    <main>
+        <section id="landing">
+            <img src="image/img1.jpeg" alt="" class="landing-img">
+            <div class="hover-box">
+            </div>
+            <div class="search">
+                <h1>Seach Movie Here</h1>
+                <input type="text" placeholder="Search By Movie Name" id="search">
+            </div>
+        </section>
+        <!-- *Image Landing End -->
+        <section id="popular">
+            <h1>Popular Movie</h1>
+            <div class="movie-container">
+
+
+            </div>
+        </section>
+    </main>
+    <!-- *Scroll top -->
+    <div class="scroll-top">
+        <i class='bx bx-chevrons-up'></i>
+    </div>
+    <!-- *Loader -->
+    <div class="loader">
+        <div class="load-child">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
